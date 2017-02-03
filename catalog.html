@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="navigator">
-          <div class="index-logo">
-            <a href="index.html"><img src="img/nerds-logo.png" width="160" height="65" alt="Nerd's"></a>
-          </div>
-          <ul>
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Клиенты</a></li>
-            <li><a class="current" href="#">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="shopping">
-          <a class="shopping cart" href="#">Корзина</a>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigator">
+        <div class="index-logo">
+          <a href="index.html"><img src="img/nerds-logo.png" width="160" height="65" alt="Nerd's"></a>
         </div>
+        <ul>
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a class="current" href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="shopping">
+        <a class="shopping cart" href="#">Корзина</a>
       </div>
-      <h1>Магазин готовых шаблонов</h1>
-    </header>
-    <main class="content">
+    </div>
+    <h1>Магазин готовых шаблонов</h1>
+  </header>
+  <main class="content">
     <div class="container">
       <form class="filter" action="#" method="get">
         <div class="range">
@@ -44,18 +46,39 @@
         </div>
         <div class="sorting">
           <h2>Сетка:</h2>
-          <input type="radio" id="radio1" name="mesh" value="Адаптивная" checked><label for="radio1">Адапивная</label><br>
-          <input type="radio" id="radio2" name="mesh" value="Фиксированная"><label for="radio2">Фиксированная</label><br>
-          <input type="radio" id="radio3" name="mesh" value="Резиновая"><label for="radio3">Резиновая</label><br>
+          <input type="radio" id="radio1" name="mesh" value="Адаптивная" checked>
+          <label for="radio1">Адапивная</label>
+          <br>
+          <input type="radio" id="radio2" name="mesh" value="Фиксированная">
+          <label for="radio2">Фиксированная</label>
+          <br>
+          <input type="radio" id="radio3" name="mesh" value="Резиновая">
+          <label for="radio3">Резиновая</label>
+          <br>
         </div>
         <div class="sorting">
           <h2>Особенности:</h2>
           <ul>
-            <li><input type="checkbox" id="check1" value="Слайдер" checked><label for="check1">Слайдер</label></li>
-            <li><input type="checkbox" id="check2" value="Блок преимущества"><label for="check2">Блок преимущества</label></li>
-            <li><input type="checkbox" id="check3" value="Новости" checked><label for="check3">Новости</label></li>
-            <li><input type="checkbox" id="check4" value="Галерея"><label for="check4">Галерея</label></li>
-            <li><input type="checkbox" id="check5" value="Корзина"><label for="check5">Корзина</label></li>
+            <li>
+              <input type="checkbox" id="check1" value="Слайдер" checked>
+              <label for="check1">Слайдер</label>
+            </li>
+            <li>
+              <input type="checkbox" id="check2" value="Блок преимущества">
+              <label for="check2">Блок преимущества</label>
+            </li>
+            <li>
+              <input type="checkbox" id="check3" value="Новости" checked>
+              <label for="check3">Новости</label>
+            </li>
+            <li>
+              <input type="checkbox" id="check4" value="Галерея">
+              <label for="check4">Галерея</label>
+            </li>
+            <li>
+              <input type="checkbox" id="check5" value="Корзина">
+              <label for="check5">Корзина</label>
+            </li>
           </ul>
         </div>
         <button class="btn grey" type="submit">Показать</button>
@@ -64,7 +87,7 @@
         <div class="sorting">
           <h2>Сортировать:</h2>
           <div class="category">
-            <a class="price current" href="#" >По цене</a>
+            <a class="price current" href="#">По цене</a>
             <a class="type" href="#">По типу</a>
             <a class="name" href="#">По названию</a>
           </div>
@@ -131,37 +154,37 @@
         </div>
       </div>
     </div>
-    </main>
-    <footer class="main-footer">
-      <div class="conteiner">
-        <section class="footer-contacts">
-          <div class="map">
-            <img src="img/map.jpg" width="1440" height="416" alt="карта">
-            <img src="img/map-marker.png" width="231" height="190" alt="маркер">
-          </div>
-          <div class="contacts">
-            <span class="contacts">Nerds design studio</span>
-            <p>
-              191186, Санкт-Петербург,<br>
-              ул. Б.&nbsp;Конюшенная, д. 19/8
-            </p>
-            <p>
-              тел.&nbsp;+7 (812) 275-75-75
-            </p>
-            <a class="btn" href="#">Напишите нам</a>
-          </div>
-        </section>
-        <section class="footer-social">
-          <div class="social">
-            <a class="btn-vk" href="#">Вконтакте</a>
-            <a class="btn-fb" href="#">Фейсбук</a>
-            <a class="btn-inst" href="#">Инстаграм</a>
-          </div>
-          <div class="promo">
-            <p><span class="action">Давай дружить, это выгодно!</span> Скидка&nbsp;10% для друзей из&nbsp;социальных сетей.</p>
-          </div>
-        </section>
-      </div>
-    </footer>
-  </body>
+  </main>
+  <footer class="main-footer">
+    <div class="conteiner">
+      <section class="footer-contacts">
+        <div class="map">
+          <img src="img/map.png" width="1440" height="416" alt="карта">
+        </div>
+        <div class="contacts">
+          <span class="contacts">Nerds design studio</span>
+          <p>
+            191186, Санкт-Петербург,
+            <br> ул. Б.&nbsp;Конюшенная, д. 19/8
+          </p>
+          <p>
+            тел.&nbsp;+7 (812) 275-75-75
+          </p>
+          <a class="btn" href="#">Напишите нам</a>
+        </div>
+      </section>
+      <section class="footer-social">
+        <div class="social">
+          <a class="btn-vk" href="#">Вконтакте</a>
+          <a class="btn-fb" href="#">Фейсбук</a>
+          <a class="btn-inst" href="#">Инстаграм</a>
+        </div>
+        <div class="promo">
+          <p><span class="action">Давай дружить, это выгодно!</span> Скидка&nbsp;10% для друзей из&nbsp;социальных сетей.</p>
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+
 </html>
