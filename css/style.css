@@ -23,3 +23,138 @@ h3 {
   line-height: 1.3;
   font-weight: bold;
 }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*header*/
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigator {
+  width: 740px;
+}
+
+.nerds {
+  display: none;
+}
+
+/*footer*/
+
+.main-footer {
+  min-height: 220px;
+}
+
+.contacts-wrapper {
+  position: relative;
+  padding: 20px 0;
+}
+
+.map {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: blue;
+  z-index: -1;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 1160px;
+  margin-top: 70px;
+}
+
+.social {
+  width: 300px;
+}
+
+.slogan {
+  width: 780px;
+}
+
+/*index*/
+
+.slider-box {
+  width: 1160px;
+  height: 430px;
+  margin-bottom: 80px;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.section {
+  width: 300px;
+  min-height: 350px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin-bottom: 80px;
+}
+
+.statistic {
+  width: 360px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+/*catalog*/
+
+.main-catalog {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+}
+
+.form {
+  width: 260px;
+  min-height: 780px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 780px;
+  margin-bottom: 60px;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  width: 360px;
+}
+
+.paginator {
+  margin-bottom: 60px;
+}
