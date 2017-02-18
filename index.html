@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
-   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -25,35 +25,35 @@
           </ul>
         </nav>
         <div class="shopping">
-          <a class="shopping cart" href="#">Корзина</a>
+          <a class="cart sprite" href="#">Корзина</a>
         </div>
       </div>
       <div class="slider-box">
         <input type="radio" id="btn-1" name="toggle" checked>
         <input type="radio" id="btn-2" name="toggle">
         <input type="radio" id="btn-3" name="toggle">
-        <div class="controls">
-          <label for="btn-1"></label>
-          <label for="btn-2"></label>
-          <label for="btn-3"></label>
-        </div>
         <div class="slider">
-          <div class="slide-desing">
-            <p><b>Долго, дорого,скрупулезно.</b></p>
-            <p>Математически выверенный дизайн<br>
-            для вашего сайта или мобильного приложения.</p>
+          <div class="slide slide-desing">
+            <p><b>Долго, дорого, скрупулезно.</b></p>
+            <p>Математически выверенный дизайн
+              <br> для вашего сайта или мобильного приложения.</p>
             <a class="btn" href="#">Узнать больше</a>
           </div>
-          <div class="slide-math">
+          <div class="slide slide-math">
             <p><b>Любим математику как никто другой</b></p>
             <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
             <a class="btn" href="#">Узнать больше</a>
           </div>
-          <div class="slide-work">
+          <div class="slide slide-work">
             <p><b>Только ночь, только хардкор</b></p>
             <p>Работать днем, как все? Мы&nbsp;против этого. Ближе к&nbsp;полуночи работа только начинается.</p>
             <a class="btn" href="#">Узнать больше</a>
           </div>
+        </div>
+        <div class="controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
         </div>
       </div>
       <div class="menu-title">
@@ -80,6 +80,7 @@
           <a class="btn yellow" href="#">Заказать</a>
         </div>
       </section>
+      <div class="line"></div>
       <div class="information">
         <div class="features">
           <h2>Мы&nbsp;&mdash; маленькая, но&nbsp;гордая дизайн-студия из&nbsp;Краснодара.</h2>
@@ -94,22 +95,36 @@
         <div class="statistics">
           <img src="img/nerds-illustration.png" width="360" height="208" alt="Nerd's">
           <span class="info">С&nbsp;2004 года любим точность во&nbsp;всем:</span>
-          <p>146%
-            <br> 100%
-            <br> 50%
-          </p>
-          <p>Уровень самоотдачи
-            <br> Соблюдение сроков
-            <br> Минимальная предоплата
-          </p>
+          <div class="statistics-items-wrapper">
+            <div class="statistics-item">
+              <div class="statistics-item-value">
+                146
+              </div>
+              Уровень самоотдачи
+            </div>
+            <div class="statistics-item">
+              <div class="statistics-item-value">
+                100
+              </div>
+              Соблюдение сроков
+            </div>
+            <div class="statistics-item">
+              <div class="statistics-item-value">
+                50
+              </div>
+              Минимальная предоплата
+            </div>
+          </div>
         </div>
       </div>
+      <div class="line"></div>
       <div class="projects">
-        <a class="btn html" href="#">html academy</a>
-        <a class="btn borodinski" href="#">Borodinski</a>
-        <a class="btn pink" href="#">Pink</a>
-        <a class="btn mishka" href="#">Mishka</a>
+        <a class="btn html sprite" href="#"><img src="img/logo-html.png" width="199" height="68" alt="html academy"></a>
+        <a class="btn borodinski sprite" href="#"><img src="img/logo-borodinski.png" width="209" height="90" alt="borodinski"></a>
+        <a class="btn pink sprite" href="#"><img scr="img/logo-pink.png" width="185" height="52" alt="Pink"></a>
+        <a class="btn mishka sprite" href="#"><img src="img/logo-mishka.png" width="173" height="84" alt="Mishka"></a>
       </div>
+      <div class="line"></div>
     </div>
   </main>
   <footer class="main-footer">
@@ -126,15 +141,27 @@
             <a href="tel:+78122757575">тел.&nbsp;+7 (812) 275-75-75"</a>
             <a class="btn red" href="#">Напишите нам</a>
           </div>
+          <div class="modal-content">
+            <h2>Напишите нам</h2>
+            <form class="write-us">
+              <p>Ваше имя:</p>
+              <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+              <p>Ваш e-mail:</p>
+              <input type="email" name="e-mail" placeholder="Для отправки ответа">
+              <p>Текст письма:</p>
+              <textarea name="text" placeholder="В свободной форме"></textarea>
+              <button class="btn" type="submit">Отправить</button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
     <div class="container">
       <section class="footer-social">
         <div class="social">
-          <a class="vk" href="#">Вконтакте</a>
-          <a class="fb" href="#">Фейсбук</a>
-          <a class="insta" href="#">Инстаграм</a>
+          <a class="vk sprite" href="#">Вконтакте</a>
+          <a class="fb sprite" href="#">Фейсбук</a>
+          <a class="insta sprite" href="#">Инстаграм</a>
         </div>
         <div class="slogan">
           <h2>Давай дружить, это выгодно!</h2>

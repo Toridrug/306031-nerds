@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 
 <body>
@@ -41,10 +40,10 @@
             <div class="background-track">
               <div class="full-track">
                 <div style="width: 70%" class="bar">
-                <div class="active-track">
-                  <button class="min"></button>
-                  <button class="max"></button>
-                </div>
+                  <div class="active-track">
+                    <button class="min"></button>
+                    <button class="max"></button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -53,7 +52,7 @@
             <span>до</span>
             <input type="text" name="price" maxlength="5" value="15000">
           </div>
-          <div class="filter">
+          <div class="radio">
             <h3>Сетка:</h3>
             <input type="radio" id="radio1" name="mesh" value="Адаптивная" checked>
             <label for="radio1">Адапивная</label>
@@ -65,7 +64,7 @@
             <label for="radio3">Резиновая</label>
             <br>
           </div>
-          <div class="filter">
+          <div class="checkbox">
             <h3>Особенности:</h3>
             <ul>
               <li>
@@ -101,14 +100,14 @@
               <a class="name" href="#">По названию</a>
             </div>
             <div class="method">
-              <a class="down current" href="#">вниз</a>
-              <a class="up" href="#">вверх</a>
+              <a class="down current" href="#"></a>
+              <a class="up" href="#"></a>
             </div>
           </div>
           <div class="catalog">
             <div class="product">
               <img src="img/img-sedona.jpg" width="360" height="567" alt="sedona">
-              <div class="popup sedona">
+              <div class="sedona hover">
                 <a class="project" href="#">Sedona</a>
                 <p>Информационный сайт для туристов</p>
                 <a class="btn red price">9 900 руб.</a>
@@ -116,7 +115,7 @@
             </div>
             <div class="product">
               <img src="img/img-pink.jpg" width="360" height="576" alt="pink">
-              <div class="popup pink">
+              <div class="pink hover">
                 <a class="project" href="#">Pink App</a>
                 <p>Продуктовый лендинг приложения для iOS и&nbsp;Android</p>
                 <a class="btn red price">9 900 руб.</a>
@@ -124,7 +123,7 @@
             </div>
             <div class="product">
               <img src="img/img-barbershop.jpg" width="360" height="576" alt="barbershop">
-              <div class="popup barbershop">
+              <div class="barbershop hover">
                 <a class="project" href="#">Barbershop</a>
                 <p>Сайт салоны красоты. Для мужчин, да.</p>
                 <a class="btn red price">9 900 руб.</a>
@@ -132,7 +131,7 @@
             </div>
             <div class="product">
               <img src="img/img-mishka.jpg" width="360" height="576" alt="mishka">
-              <div class="popup mishka">
+              <div class="mishka hover">
                 <a class="project" href="#">Mishka</a>
                 <p>Интернет-магазин вязаных игрушек</p>
                 <a class="btn red price">9 900 руб.</a>
@@ -140,7 +139,7 @@
             </div>
             <div class="product">
               <img src="img/img-aplus.jpg" width="360" height="576" alt="aplus">
-              <div class="popup aplus">
+              <div class="aplus hover">
                 <a class="project" href="#">A Plus</a>
                 <p>Лендинг курсов повышения квалификации</p>
                 <a class="btn red price">9 900 руб.</a>
@@ -148,7 +147,7 @@
             </div>
             <div class="product">
               <img src="img/img-kvast.jpg" width="360" height="576" alt="kvast">
-              <div class="popup kvast">
+              <div class="kvast hover">
                 <a class="project" href="#">Кваст</a>
                 <p>Промо-сайт производителя крафтового кваса</p>
                 <a class="btn red price">9 900 руб.</a>
@@ -178,6 +177,18 @@
             </p>
             <a href="tel:+78122757575">тел.&nbsp;+7 (812) 275-75-75"</a>
             <a class="btn red" href="#">Напишите нам</a>
+          </div>
+          <div class="modal-content">
+            <h2>Напишите нам</h2>
+            <form class="write-us" action="#" method="get">
+              <p>Ваше имя:</p>
+              <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+              <p>Ваш e-mail:</p>
+              <input type="email" name="e-mail" placeholder="Для отправки ответа">
+              <p>Текст письма:</p>
+              <textarea name="text" placeholder="В свободной форме"></textarea>
+              <button class="btn" type="submit">Отправить</button>
+            </form>
           </div>
         </div>
       </div>
